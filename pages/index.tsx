@@ -1,5 +1,14 @@
 import Head from 'next/head'
+
+/**
+ * Import CSS as a module
+ * 
+ * Essencial "import stles" and ".module.css" 
+ *
+ * */
+
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -12,6 +21,15 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <style jsx>
+            {
+              `
+                h1{
+                  color: red;
+                }
+              `
+            }
+          </style>
         </h1>
 
         <p className={styles.description}>
