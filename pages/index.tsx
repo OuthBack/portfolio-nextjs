@@ -8,9 +8,11 @@ import Head from 'next/head'
  * */
 
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 
 export default function Home() {
+  // SHOULD BE A REACT COMPONENT
   return (
     <div className={styles.container}>
       <Head>
@@ -20,7 +22,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Go to {' '}
+          <Link href="/login">
+            <a>Login</a>
+          </Link>
           <style jsx>
             {
               `
@@ -33,8 +38,12 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Get started by test{' '}
+          <code className={styles.code}>
+            <Link href="/test">
+              <a>Test</a>
+            </Link>
+          </code>
         </p>
 
         <div className={styles.grid}>
