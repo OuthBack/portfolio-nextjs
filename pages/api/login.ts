@@ -19,8 +19,8 @@ export default function(req: NextApiRequest,
         token: jwt.sign(
             {
                 username,
-                admin: username === 'admin@admin.com'
-                && password === 'admin'
+                admin: username === 'admin'
+                && password === '123'
             },
             KEY
         )
