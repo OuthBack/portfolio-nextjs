@@ -1,0 +1,40 @@
+/*
+  0.1 - Variables
+  0.2 - General
+  1.0 - Nav
+  1.1 - Header Background
+  
+*/
+
+/* Variables */
+
+@import 'variables.scss';
+
+/* General */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: $primary-color;
+  color: white;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Nav */
+
+@import 'nav/nav';
+
+/*  Header Background */
+
+@import 'header/background'

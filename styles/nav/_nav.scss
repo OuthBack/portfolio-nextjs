@@ -1,0 +1,18 @@
+nav{
+    position: absolute !important;
+    z-index: 2;
+
+    ol{
+        li{
+            list-style: none;
+            a{
+                font-weight: bold;
+                &:hover{
+                    color: $primary-color;
+                    cursor: pointer;
+                    background-color: $terceary-color;
+                }
+            }
+        }
+    }
+}

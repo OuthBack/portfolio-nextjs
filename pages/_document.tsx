@@ -14,7 +14,6 @@ export default class CustomDocument extends Document {
         return ( 
             <Html>
                 <Head>
-                    <meta property="custom" content="yolo" />
                 </Head>
                 <body>
                     <Main />

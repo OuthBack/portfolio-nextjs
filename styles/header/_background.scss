@@ -1,0 +1,46 @@
+header{
+    height: 100vh;
+    max-height: 100vh;
+
+    
+
+    .perspective{
+        position: relative;
+        height: 100%;
+        transition: 0.3s;
+        transform-style: preserve-3d;
+
+        &::before{
+            background-image: url('../../public/images/smoke.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            pointer-events: none;
+        }
+
+        &::after{
+            background-image: url('../../public/images/noise.gif');
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            opacity: 0.04;
+            content: " ";
+            pointer-events: none;
+        }
+        
+        .header-text{
+            position: relative;
+            z-index: 2;
+            .different-text{
+                color: $primary-color;
+                background-color: $terceary-color;
+            }
+        }
+    }
+}
+

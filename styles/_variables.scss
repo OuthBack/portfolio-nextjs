@@ -1,0 +1,52 @@
+$primary-color: #0c0c0c;
+$secundary-color: #b70304;
+$terceary-color: white;
+
+$light-primary-color: #1a1a1a;
+$light-secundary-color: #d80000;
+$light-terceary-color: #cacaca;
+
+$low-opacity-primary-color: rgba(12, 12, 12, 0.205);
+$medium-opacity-primary-color: rgba(12, 12, 12, 0.6);
+
+$ultra-header-font: 10em;
+$header-font: 2em;
+$background-title-font: 3.5em;
+$background-subtitle-font: 2em;
+$background_button_font: 1.8em; 
+$default-h1-font: 1.5em;
+
+$mobile-ultra-header-font: 7em;
+$mobile-header-font: 1.5em;
+$mobile-default-h1-font: 1.2em;
+$mobile-background-title-font: 1.5em;
+$mobile-background-subtitle-font: 0.8em;
+$mobile-background_button_font: 0.7em; 
+
+$block-padding: 150px 0 150px 0;
+$mobile-block-padding: 50px 0 50px 0;
+$mobile-padding: 0 50px 0 50px;
+
+$fa-font-path: "scss/fontawesome/webfonts";
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin text-shadow-6px {
+    text-shadow: 6px 4px 5px $primary-color;
+}
+
+@mixin secundary-color-hover {
+    &:hover{
+        color: $light-secundary-color;
+    }
+}
+
+@mixin terceary-color-hover {
+    &:hover{
+        color: $light-terceary-color;
+    }
+}
