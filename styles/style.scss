@@ -1,6 +1,7 @@
 /*
   0.1 - Variables
   0.2 - General
+  0.3 - Animation
   1.0 - Nav
   1.1 - Header Background
   
@@ -8,7 +9,7 @@
 
 /* Variables */
 
-@import 'variables.scss';
+@import 'variables';
 
 /* General */
 
@@ -19,7 +20,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: $primary-color;
   color: white;
-  overflow: hidden;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {
@@ -31,10 +36,16 @@ a {
   box-sizing: border-box;
 }
 
+/* Animation */
+
+@import '_animations';
+
 /* Nav */
 
 @import 'nav/nav';
 
 /*  Header Background */
 
-@import 'header/background'
+@import 'header/background';
+
+

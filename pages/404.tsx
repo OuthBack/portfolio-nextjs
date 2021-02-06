@@ -2,6 +2,13 @@
  * This changes the standart 404 page
  */
 
-export default function My404(){
-    return <h1>404.exe</h1>;
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+export default function Menu(){
+    return(
+        <>
+            <FontAwesomeIcon icon={faHome} size="sm"/>
+        </>
+    )
 }

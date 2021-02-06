@@ -11,6 +11,7 @@
  */
 
 import '../styles/style.scss'
+import '../components/font-awesome'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+
       </Head>
       <Component {...pageProps} />
       

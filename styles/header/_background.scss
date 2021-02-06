@@ -1,17 +1,17 @@
 header{
     height: 100vh;
     max-height: 100vh;
-
-    
+    overflow: hidden;
 
     .perspective{
         position: relative;
         height: 100%;
         transition: 0.3s;
         transform-style: preserve-3d;
+        --before-blur: 0px;
 
         &::before{
-            background-image: url('../../public/images/smoke.jpg');
+            background-image: url('../../public/images/cube.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             position: absolute;
@@ -20,6 +20,8 @@ header{
             height: 100%;
             content: " ";
             pointer-events: none;
+            transition: 2s;
+            filter: opacity(0.3) grayscale(1) blur(var(--before-blur));
         }
 
         &::after{
@@ -36,6 +38,7 @@ header{
         .header-text{
             position: relative;
             z-index: 2;
+            transition: 1s;
             .different-text{
                 color: $primary-color;
                 background-color: $terceary-color;

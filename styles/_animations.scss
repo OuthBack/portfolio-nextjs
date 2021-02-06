@@ -1,0 +1,39 @@
+@keyframes rotate360 {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes rotate_and_move_left {
+    to { transform: translateX(-100vw) rotate(360deg); }
+}
+
+@keyframes rotate_and_move_return {
+    from { transform: translateX(-100vw) rotate(0deg); }
+    to { transform: translateX(0) rotate(360deg)}
+}
+
+@keyframes rotate_and_move_right {
+    to { transform: translateX(100vw) rotate(360deg); }
+}
+
+@keyframes alternative_rotate_and_return {
+    from{ transform: translateX(10vw) rotate(0deg); }
+    to { transform: translateX(0) rotate(360deg); }
+}
+
+@keyframes alternative_rotate_and_move_right{
+    from{ transform: translateX(0) rotate(0deg); }
+    to { transform: translateX(10vw) rotate(360deg); }
+}
+
+@keyframes initial_right {
+    from{ transform: translateX(10vw) }
+    to{ transform: translateX(10vw) }
+}
+
+@keyframes move_left{
+    to{ transform: translateX(-200vw) }
+}
+
+@keyframes move_right{
+    to{ transform: translateX(200vw) }
+}
