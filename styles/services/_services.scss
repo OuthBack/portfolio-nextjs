@@ -1,0 +1,30 @@
+.services{
+    position: relative;
+    
+    > div{
+        padding: $block-padding;
+
+        h1{
+            font-size: 5rem;
+        }
+        
+        h4{
+            letter-spacing: 5px;
+            font-weight: bold;
+        }
+
+
+        ul{
+            padding-left: 20px;
+            li{
+                font-weight: 500;
+                font-size: 1.2rem;
+            }
+        }
+        
+    }
+    > img{
+            position: absolute;
+            pointer-events: none;
+        }
+}

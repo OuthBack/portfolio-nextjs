@@ -1,5 +1,5 @@
 $primary-color: #0c0c0c;
-$secundary-color: #b70304;
+$secundary-color: white;
 $terceary-color: white;
 
 $light-primary-color: #1a1a1a;
@@ -23,7 +23,7 @@ $mobile-background-title-font: 1.5em;
 $mobile-background-subtitle-font: 0.8em;
 $mobile-background_button_font: 0.7em; 
 
-$block-padding: 150px 0 150px 0;
+$block-padding: 150px 0;
 $mobile-block-padding: 50px 0 50px 0;
 $mobile-padding: 0 50px 0 50px;
 
@@ -50,3 +50,4 @@ $fa-font-path: "scss/fontawesome/webfonts";
         color: $light-terceary-color;
     }
 }
+

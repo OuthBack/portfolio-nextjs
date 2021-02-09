@@ -13,11 +13,11 @@ export default function HeaderBackground(){
     }
 
     return(
-        <Tilt className="Tilt" options={{
+        <header>
+            <Tilt className="Tilt" options={{
                 max : 5, 
                 scale: 1
             }}>
-            <header >
                 <div className="perspective d-flex flex-column">
                     <Nav></Nav>
                     <div className="header-text container d-flex justify-content-center
@@ -25,7 +25,7 @@ export default function HeaderBackground(){
                         <h1 className="display-1">| we do <Different>DIFFERENT.</Different></h1>
                     </div>
                 </div>
-            </header>
-        </Tilt>
+            </Tilt>
+        </header> 
     )
 }

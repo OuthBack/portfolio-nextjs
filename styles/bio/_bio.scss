@@ -1,0 +1,27 @@
+.bio{
+    color: $primary-color;
+    padding: $block-padding;
+
+    > h1{
+        font-size: 5rem;
+        font-weight: 900;
+        padding-right: 35%;
+        position: relative;
+    }
+
+    u{
+        text-decoration: none;
+        border-bottom: 3px dotted $primary-color;
+        font-weight: 600;
+    }
+
+    div{
+        p{
+            font-size: 1.3rem;
+        }
+
+        h2{
+            padding-left: 50px;
+        }
+    }
+}
