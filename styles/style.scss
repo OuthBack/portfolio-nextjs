@@ -7,6 +7,7 @@
   2.0 - Bio
   3.0 - Services
   10.0 - Screens
+  4.0 - Footer
   
 */
 
@@ -43,10 +44,12 @@ a {
 
 .wrap-white{
   background-color: $secundary-color;
+  color: $primary-color;
 }
 
 .wrap-black{
   background-color: $primary-color;
+  color: $secundary-color;
 }
 
 .lh-1{
@@ -96,6 +99,10 @@ a {
 /* 3.0 - Services */
 
 @import 'services/services';
+
+/* 4.0 - Footer */
+
+@import 'footer/footer';
 
 /* 10.0 Screens */
 

@@ -41,8 +41,6 @@ export default function Services(){
                 </div>
                 <img className="img-fluid grayscale-blur w-100 h-100" src="/images/background-services.jpg" alt="Background Programming"/>
             </div>
-
-
         </section>
     )
 }

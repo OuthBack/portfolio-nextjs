@@ -26,9 +26,9 @@ export default function Nav(){
             <div className="vw-100 vh-100 d-flex justify-content-center align-items-center">
                 <ol className="list-menu navbar-nav">
                     {Li('HOME')}
-                    {Li('OUR WORK')}
-                    {Li('OUR TEAM')}
-                    {Li('CONTACT')}
+                    {Li('SOBRE MIM')}
+                    {Li('SERVIÇOS')}
+                    {Li('CONTATO')}
                 </ol>
             </div>
         )

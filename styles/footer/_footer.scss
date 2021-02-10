@@ -1,0 +1,30 @@
+.footer{
+    padding: $block-padding;
+
+    h1{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    > div{
+        a{
+            padding: 0 5px;
+            &:hover{
+                color: $light-primary-color;
+            }
+            svg{
+                width: 40px;
+            }
+        }  
+    }
+
+    ul{
+        padding: 30px 0 0 0;
+        li{
+            padding: 0;
+            font-weight: 600;
+            font-size: 1.5rem;
+            list-style: none;
+        }
+    }
+}
