@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 export default function Footer(){
     return(
         <section>
-            <div className="wrap-white">
+            <div className="wrap-white" id="footer">
                 <Fade left cascade>
                     <div className="wrap mx-auto footer">
                     <h1>Pronto para decolar seu negócio?</h1>

@@ -7,7 +7,7 @@ export default function Services(){
     return(
         <section>
             <div className="services d-flex flex-column align-items-center 
-            justify-content-center flex-wrap w-100">
+            justify-content-center flex-wrap w-100" id="services">
                 <Fade left cascade>
                     <div className="wrap row my-auto">
                         <h1 className="col-12 mb-5">MEUS SERVIÇOS</h1>
