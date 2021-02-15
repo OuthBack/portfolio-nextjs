@@ -19,6 +19,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta property="og:url"                content="https://portfolio-nextjs.outhback.vercel.app" />
+        <meta property="og:type"               content="website" />
+        <meta property="og:title"              content="Site do Henrique 'OuthBack' Figueiredo" />
+        <meta property="og:description"        content="Portfólio" />
+        <meta property="og:image"              content="http://prntscr.com/znch0k" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
