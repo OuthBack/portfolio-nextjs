@@ -15,14 +15,21 @@ export default function Bio(){
                         </div>
                         <div className="row align-items-start">
                             <p className="col">
-                                <u>Lorem ipsum</u> dolor sit amet, consectetur adipiscing elit. Ut ut nunc quis mauris condimentum sodales. Morbi in nisl et mi gravida tempus. Vestibulum at arcu nibh. Suspendisse eu tempor nulla, id fermentum lacus. Fusce porttitor eu mi id gravida. Nullam id facilisis nulla, in luctus enim.
+                                Seja muito bem vindo ao meu portfólio, sou desenvolvedor <u>Front End e UX / UI Designer.</u>
                                 <br/>
                                 <br/>
-                                <u>Lorem ipsum</u> dolor sit amet, consectetur adipiscing elit. Ut ut nunc quis mauris condimentum sodales. 
+                                Iniciei no desenvolvimento de sites após usar elementos dessa área em alguns de meus serviços. Desde então o interesse só cresceu e fui direcionado para o <u>Front End.</u>
+                                <br/>
+                                <br/>
+                                <u>Como são meus projetos?</u>
+                                <br/>
+                                Começo o projeto com a estruturação, em seguida a prototipagem e por ultimo avanço para a programação. 
                             </p>
                             <h2 className="col-8 align-self-end">
                                 <strong>
-                                    <blockquote>"A vingança nunca é plena, mata a alma e a envenena"</blockquote>
+                                    <blockquote>"Seja criterioso com a qualidade. Algumas pessoas não estão acostumadas com um ambiente onde a excelência é esperada."
+                                        <br/>
+                                        <p className="author">- Steve Jobs</p></blockquote>
                                 </strong>
                             </h2>
                         </div>
