@@ -3,6 +3,7 @@ nav{
     z-index: 2;
 
     .hamburguer-container, .times-container{
+        cursor: pointer;
         position: fixed;
         width: 30px;
         right: 100px;
@@ -28,7 +29,7 @@ nav{
                 &:hover{
                     color: $primary-color;
                     cursor: pointer;
-                    background-color: $terceary-color;
+                    background-color: $secundary-color;
                 }
             }
         }

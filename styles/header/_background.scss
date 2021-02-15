@@ -8,7 +8,6 @@ header{
         height: 100vh;
         transition: 0.3s;
         transform-style: preserve-3d;
-        --before-blur: 0px;
 
         &::before{
             background-image: url('../../public/images/cube.jpg');
@@ -21,7 +20,7 @@ header{
             content: " ";
             pointer-events: none;
             transition: 2s;
-            filter: opacity(0.3) grayscale(1) blur(var(--before-blur));
+            filter: opacity(0.3) grayscale(1) blur(5px) !important;
         }
 
         &::after{
@@ -41,7 +40,7 @@ header{
             transition: 1s;
             .different-text{
                 color: $primary-color;
-                background-color: $terceary-color;
+                background-color: $secundary-color;
             }
         }
     }

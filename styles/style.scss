@@ -6,8 +6,10 @@
   1.1 - Header Background
   2.0 - Bio
   3.0 - Services
-  10.0 - Screens
   4.0 - Footer
+  5.0 - Scrolls
+  10.0 - Screens
+  
   
 */
 
@@ -39,8 +41,6 @@ a {
 * {
   box-sizing: border-box;
 }
-
-
 
 .wrap-white{
   background-color: $secundary-color;
@@ -103,6 +103,9 @@ a {
 /* 4.0 - Footer */
 
 @import 'footer/footer';
+
+/* 5.0 - Scrolls */
+@import 'scroll/scrolls';
 
 /* 10.0 Screens */
 

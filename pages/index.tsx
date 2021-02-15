@@ -15,14 +15,17 @@ import Bio from '../components/bio'
 import Services from '../components/services'
 import Footer from '../components/footer'
 
+
 export default function Home() {
+
+
   // SHOULD BE A REACT COMPONENT
   return (
-    <>
+    <main>
       <HeaderBackground></HeaderBackground>
       <Bio></Bio>
       <Services></Services>
       <Footer></Footer>
-    </>
+    </main>
   )
 }

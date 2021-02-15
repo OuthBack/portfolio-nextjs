@@ -2,11 +2,9 @@
     color: $primary-color;
     padding: $block-padding;
 
-    > h1{
-        font-size: 5rem;
-        font-weight: 900;
-        padding-right: 35%;
-        position: relative;
+
+    .title-container{
+        align-self: flex-start;
     }
 
     u{
@@ -16,6 +14,14 @@
     }
 
     div{
+        h1{
+            font-size: 5rem;
+            font-weight: 900;
+            padding-right: 35%;
+            position: relative;
+            text-align: left;
+        }
+
         p{
             font-size: 1.3rem;
         }

@@ -36,8 +36,6 @@ export default function Menu(){
             hoverElement("nav .hamburguer-container");
             hoverElement("nav .times-container");
 
-
-
         }(jQuery))
     }
 
