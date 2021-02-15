@@ -7,8 +7,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Menu(){
     return(
-        <>
-            <FontAwesomeIcon icon={faHome} size="sm"/>
-        </>
+        <div className="wrap-white d-flex align-items-center justify-content-center vh-100">
+            <h1 style={{ fontSize: '4rem', textAlign: 'center' }}>
+                Error 404 - Page Not Found
+            </h1>
+        </div>
     )
 }
