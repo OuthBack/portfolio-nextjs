@@ -25,8 +25,15 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description"        content="Portfólio" />
         <meta property="og:image"              content="https://portfolio-nextjs.outhback.vercel.app/_next/image?url=%2Fimages%2Fsite-image.png&w=1920&q=75" />
 
+        <meta name="author" content="Henrique Figueiredo" />
         <meta name="description" content="Site do OuthBack, desenvolvedor de sites e desenvolvedor Front End.
         Aqui está seu portfólio. Venha fazer seu site decolar com Henrique 'OuthBack' Figueiredo, um negócio imperdível"></meta>
+        <meta name="keywords" content="sites, web, desenvolvimento, front end, react,
+        html, javascript, css, website" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="content-language" content="pt-br, en-US, fr" />
+        <meta name="copyright" content="© 2021 Henrique Figueiredo" />
+
         <link rel="canonical" href="https://portfolio-nextjs.outhback.vercel.app" />
         <meta name="robots" content="index, follow" />
 
