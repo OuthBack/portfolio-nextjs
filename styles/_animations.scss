@@ -22,12 +22,12 @@
 
 @keyframes alternative_rotate_and_move_right{
     from{ transform: translateX(0) rotate(0deg); }
-    to { transform: translateX(10vw) rotate(360deg); }
+    to { transform: translateX(100vw) rotate(360deg); }
 }
 
 @keyframes initial_right {
-    from{ transform: translateX(10vw) }
-    to{ transform: translateX(10vw) }
+    from{ transform: translateX(100vw) }
+    to{ transform: translateX(100vw) }
 }
 
 @keyframes move_left{

@@ -25,7 +25,12 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description"        content="Portfólio" />
         <meta property="og:image"              content="https://portfolio-nextjs.outhback.vercel.app/_next/image?url=%2Fimages%2Fsite-image.png&w=1920&q=75" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Site do OuthBack, desenvolvedor de sites e desenvolvedor Front End.
+        Aqui está seu portfólio. Venha fazer seu site decolar com Henrique 'OuthBack' Figueiredo, um negócio imperdível"></meta>
+        <link rel="canonical" href="https://portfolio-nextjs.outhback.vercel.app" />
+        <meta name="robots" content="index, follow" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="no" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
         crossOrigin="anonymous"></script>

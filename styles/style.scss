@@ -43,6 +43,10 @@ a {
   box-sizing: border-box;
 }
 
+.wrap {
+  max-width: 1260px;
+}
+
 .wrap-white{
   background-color: $secundary-color;
   color: $primary-color;
