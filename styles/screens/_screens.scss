@@ -176,6 +176,20 @@
             
         }
     }
+
+    .services{
+        div{
+            h4{
+                font-size: $smartphone-services;
+            }
+            
+            ul{
+                li{
+                    font-size: $smartphone-services-description;
+                }
+            }
+        }
+    }
 }
 
 
