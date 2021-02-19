@@ -8,6 +8,7 @@
   3.0 - Services
   4.0 - Footer
   5.0 - Scrolls
+  6.0 - Sites
   10.0 - Screens
   
   
@@ -112,6 +113,8 @@ a {
 /* 5.0 - Scrolls */
 @import 'scroll/scrolls';
 
-/* 10.0 Screens */
+// 6.0 - Sites
+@import 'sites/sites';
 
+/* 10.0 Screens */
 @import 'screens/screens';

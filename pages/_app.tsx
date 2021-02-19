@@ -30,8 +30,8 @@ function MyApp({ Component, pageProps }) {
         Aqui está seu portfólio. Venha fazer seu site decolar com Henrique 'OuthBack' Figueiredo, um negócio imperdível"></meta>
         <meta name="keywords" content="sites, web, desenvolvimento, front end, react,
         html, javascript, css, website" />
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <meta http-equiv="content-language" content="pt-br, en-US, fr" />
+        <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
+        <meta httpEquiv="content-language" content="pt-br, en-US, fr" />
         <meta name="copyright" content="© 2021 Henrique Figueiredo" />
 
         <link rel="canonical" href="https://portfolio-nextjs.outhback.vercel.app" />
