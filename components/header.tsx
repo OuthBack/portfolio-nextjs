@@ -16,10 +16,8 @@ export default class Header extends React.Component<{}, { scroll: number }>{
         window.onscroll = () => {
             const opacityRate = 2;
             let scroll = 100 - opacityRate* 100 * window.scrollY / this.header.current.clientHeight;
-            console.log(window.scrollY)
             this.setState({ scroll: scroll/100 });
         };
-        console.log(this.header.current.clientHeight );
     }
 
     render(){ 
