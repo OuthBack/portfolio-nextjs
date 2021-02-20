@@ -38,6 +38,11 @@ header{
             position: relative;
             z-index: 2;
             transition: 1s;
+            font-size: $font-1;
+            white-space: nowrap;
+            *{
+                font-size: $font-1
+            }
             .different-text{
                 color: $primary-color;
                 background-color: $secundary-color;

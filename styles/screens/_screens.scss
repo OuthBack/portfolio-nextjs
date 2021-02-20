@@ -41,25 +41,11 @@
 //Max
 
 @media (max-width: 576px){
-    .header-text{
-        h1{
-            font-size: $smartphone-header-text-font !important;
-        }
-    }
 
-    .list-menu{
-        h2{
-            font-size: $smartphone-header-font !important;
-        }
-    }
 }
 
 @media (max-width: 768px){
-    .header-text{
-        h1{
-            font-size: $tablet-header-text-font;
-        }
-    }
+
 
     nav .hamburguer-container, .times-container{
         right: 20px im !important;
@@ -68,29 +54,10 @@
     .list-menu{
         padding: 0 50px;
 
-        h2{
-            font-size: $smartphone-menu-font;
-        }
     }
 
-    .services{
-        div{
-            h1{
-                font-size: $tablet-header-font;
-            }
-        }
-    }
 
     .footer{
-        h1{
-            font-size: $tablet-footer-header-text-font;
-        }
-
-        ul{
-            li{
-                font-size: $tablet-footer-text-font;
-            }
-        }
 
         a{
             svg{
@@ -103,24 +70,7 @@
 
 @media (max-width: 992px){
 
-    .bio{
-        div{
-            h1{
-                font-size: $tablet-header-font;
-            }
-            
 
-            p{
-                font-size: $tablet-paragraph-font;
-            }
-            
-            h2{
-                blockquote{
-                    font-size: $tablet-quote-sizing;
-                }
-            }
-        }
-    }
 }
 
 @media (max-width: 1170px){
@@ -156,40 +106,7 @@
         width: 20px !important;
     }
 
-    .bio{
-        div{
-            h1{
-                font-size: $tablet-header-font;
-            }
-            
-            h2{
-                padding: 0;
-                blockquote{
-                    font-size: $smartphone-quote-sizing;
-                }
-            }
 
-            p{
-                font-size: $smartphone-paragraph-font;
-            }
-            
-            
-        }
-    }
-
-    .services{
-        div{
-            h4{
-                font-size: $smartphone-services;
-            }
-            
-            ul{
-                li{
-                    font-size: $smartphone-services-description;
-                }
-            }
-        }
-    }
 }
 
 

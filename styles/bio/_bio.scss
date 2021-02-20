@@ -19,7 +19,7 @@
 
     div{
         h1{
-            font-size: 5rem;
+            font-size: $font-1;
             font-weight: 900;
             padding-right: 35%;
             position: relative;
@@ -27,11 +27,15 @@
         }
 
         p{
-            font-size: 1.3rem;
+            font-size: $font-4;
         }
 
         h2{
             padding-left: 50px;
+        }
+
+        blockquote{
+            font-size: $font-4;
         }
     }
 }

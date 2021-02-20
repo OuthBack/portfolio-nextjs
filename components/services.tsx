@@ -11,7 +11,7 @@ export default function Services(){
                 <Fade left cascade>
                     <div className="wrap row my-auto">
                         <h1 className="col-12 mb-5">MEUS SERVIÇOS</h1>
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <h4>webdesign</h4>
                             <ul>
                                 <li>Sites</li>
@@ -20,7 +20,7 @@ export default function Services(){
                                 <li>SEO</li>
                             </ul>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <h4>habilidades</h4>
                             <ul>
                                 <li>Html 5</li>
@@ -32,7 +32,7 @@ export default function Services(){
 
                             </ul>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <h4>em breve</h4>
                             <ul>
 

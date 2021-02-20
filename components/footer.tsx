@@ -9,10 +9,16 @@ export default function Footer(){
                 <Fade left cascade>
                     <div className="wrap mx-auto footer">
                     <h1>Pronto para decolar seu negócio?</h1>
-                        <ul className="d-flex align-items-center">
-                            <li className="col-4">Brasil | Porecatu - PR</li>
-                            <li className="col-4">+55 43 99684-1994</li>
-                            <li className="col-4">riquessan@gmail.com</li>
+                        <ul className="row">
+                            <li className="col-md-4">Brasil | Porecatu - PR</li>
+                            <li className="col-md-4">+55 43 99684-1994</li>
+                            <li className="col-md-3">
+                                <address>
+                                    <a href="#">
+                                        riquessan@gmail.com
+                                    </a>
+                                </address> 
+                            </li>
                         </ul>
                         <div>
                             <h1>Siga-me nas redes sociais</h1>

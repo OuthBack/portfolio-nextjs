@@ -2,35 +2,14 @@ $primary-color: #0c0c0c;
 $secundary-color: white;
 
 $light-primary-color: #555555;
-$light-secundary-color: #d80000;
-$light-terceary-color: #cacaca;
+$light-secundary-color: #cacaca;
 
 $low-opacity-primary-color: rgba(12, 12, 12, 0.205);
 $medium-opacity-primary-color: rgba(12, 12, 12, 0.6);
 
-$ultra-header-font: 10em;
-$header-font: 2em;
-$background-title-font: 3.5em;
-$background-subtitle-font: 2em;
-$background_button_font: 1.8em; 
-$default-h1-font: 1.5em;
-
-$tablet-header-font: 3rem;
-$tablet-paragraph-font: 0.9rem;
-$tablet-quote-sizing: 1rem;
-$tablet-header-text-font: 3rem;
-$tablet-footer-header-text-font: 2rem;
-$tablet-footer-text-font: 0.8rem;
-
-$smartphone-header-font: 2rem;
-$smartphone-paragraph-font: 1rem;
-$smartphone-quote-sizing: 1rem;
-
-$smartphone-menu-font: 1.5rem;
-$smartphone-header-text-font: 2rem;
-$smartphone-services: 0.7rem;
-$smartphone-services-description: 0.6rem;
-
+$font-1: clamp(2rem, 5vw, 5rem);
+$font-4: clamp(1rem, 2vw, 2rem);
+$font-5: clamp(0.8rem, 1.5vw, 1.3rem);
 
 $block-padding: 150px 0;
 $mobile-block-padding: 50px 0 50px 0;

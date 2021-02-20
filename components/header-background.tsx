@@ -35,7 +35,7 @@ export default class HeaderBackground extends React.Component{
                             <Nav></Nav>
                             <div className="header-text container d-flex justify-content-center
                             mx-auto my-auto w-100">
-                                <h1 className="display-1">| we make <Different>DIFFERENT.</Different></h1>
+                                <h1>| we make <Different>DIFFERENT.</Different></h1>
                             </div>
                         </div>
                     </Tilt>
