@@ -32,7 +32,7 @@ export default class HeaderBackground extends React.Component{
                         scale: 1
                     }}>
                         <div className="perspective d-flex flex-column">
-                            <Nav></Nav>
+                            
                             <div className="header-text container d-flex justify-content-center
                             mx-auto my-auto w-100">
                                 <h1>| we make <Different>DIFFERENT.</Different></h1>
