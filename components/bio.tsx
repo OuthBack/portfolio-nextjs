@@ -6,7 +6,7 @@ export default function Bio(){
     return(
         <section>
             <div className="wrap-white" id="bio">
-                <div className="bio wrap mx-auto d-flex 
+                <div className="bio container mx-auto d-flex 
                 flex-column align-items-center justify-content-center flex-wrap">
                     <div className="background-text" data-text="front end"></div>
                     <Fade left cascade>

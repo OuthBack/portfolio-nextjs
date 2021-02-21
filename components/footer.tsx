@@ -5,10 +5,10 @@ import Fade from 'react-reveal/Fade';
 export default function Footer(){
     return(
         <section>
-            <div className="wrap-white" id="footer">
+            <div className="wrap-black" id="footer">
                 <Fade left cascade>
-                    <div className="wrap mx-auto footer">
-                    <h1>Pronto para decolar seu negócio?</h1>
+                    <div className="wrap mx-auto footer container">
+                        <h1>Pronto para decolar seu negócio?</h1>
                         <ul className="row">
                             <li className="col-md-4">Brasil | Porecatu - PR</li>
                             <li className="col-md-4">+55 43 99684-1994</li>

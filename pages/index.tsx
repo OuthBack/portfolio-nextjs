@@ -14,6 +14,7 @@ import HeaderBackground from '../components/header-background'
 import Bio from '../components/bio'
 import Services from '../components/services'
 import Footer from '../components/footer'
+import Sites from '../components/index-sites';
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <HeaderBackground></HeaderBackground>
       <Bio></Bio>
       <Services></Services>
+      <Sites></Sites>
       <Footer></Footer>
     </main>
   )
