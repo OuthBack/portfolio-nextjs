@@ -15,6 +15,10 @@ $block-padding: 80px 0;
 $mobile-block-padding: 50px 0 50px 0;
 $mobile-padding: 0 50px 0 50px;
 
+$hamburguer-distance: 5vh;
+$hamburguer-width: 3vw;
+$hamburguer-height: 3px;
+
 $fa-font-path: "scss/fontawesome/webfonts";
 
 @mixin flex-center {

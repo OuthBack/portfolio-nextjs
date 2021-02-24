@@ -46,14 +46,14 @@ export default function Nav(){
             
             // Click Animation
             if(!nav.props.className){
-                open(animation_duration, false_icon_hover, true_icon_hover);
+                //open();
                 
-                setNav(
-                    previousValue => Links()
-                )
+                //setNav(
+                //    previousValue => Links()
+                //)
             }else{
                 // Close Menu
-                close(animation_duration, false_icon_hover, true_icon_hover);
+                //close();
                 
                 setTimeout(() => {
                     setNav(

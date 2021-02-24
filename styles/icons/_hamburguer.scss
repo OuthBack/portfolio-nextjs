@@ -1,0 +1,47 @@
+$hamburguer-distance: 5vh;
+$hamburguer-width: clamp(33px,3vw, 3vw);;
+$hamburguer-height: 3px;
+
+.hamburguer-icon{
+    cursor: pointer;
+    height: calc(2 * #{$hamburguer-height} + 15px);
+    width: $hamburguer-width;
+    position: absolute;
+    z-index: 2;
+    right: 5vw;
+    top: $hamburguer-distance;
+    transition: 0.5s;
+    
+    &::before, &::after{
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        border-radius: 10px;
+        height: $hamburguer-height;
+        background-color: $secundary-color;
+        content: " ";
+        transition: 0.5s;
+    }
+
+    &::before{
+        width: 70%;
+    }
+
+    &::after{
+        top: 15px;
+    }
+}
+
+.hamburguer-icon.animate{
+    top: calc(#{$hamburguer-distance} + 20px);
+
+    &::before{
+        transform: rotate(45deg);
+        width: 100%;
+    }
+
+    &::after{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+}

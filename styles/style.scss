@@ -1,6 +1,7 @@
 /*
   0.1 - Variables
   0.2 - General
+  0.25 - Icons
   0.3 - Animation
   1.0 - Nav
   1.1 - Header Background
@@ -88,6 +89,9 @@ a {
   filter: grayscale(1) blur(5px);
   opacity: 0.2;
 }
+
+// 0.25 - Icons
+@import 'icons/icons';
 
 /* 0.3 Animation */
 
