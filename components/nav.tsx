@@ -1,76 +1,25 @@
 import Menu from './icons-menu'
-import React, { useState } from 'react'
-import open from './animations/nav-menu/open'
-import close from './animations/nav-menu/close'
+import React, { useState, createContext, ReactElement } from 'react'
+import Open from './animations/nav-menu/open'
+import Close from './animations/nav-menu/close'
+
+
+
+export const NavContext = createContext(null);
 
 export default function Nav(){
 
-    const EmpthyJsx = () => {
-        return(<></>)
-    }
+    const [nav, setNav] = useState<ReactElement>( Close() );
 
-    const [nav, setNav] = useState( EmpthyJsx );
-
-    function Li(Content:string, Link:string){
-        return(
-            
-            <li className='nav-item nav-pills px-4'>
-                <a className='nav-link' href={ Link }>
-                    <h2>{ Content }</h2>
-                </a>
-            </li>
-        )
-    }
-
-    const Links = () => {
-        return(
-            <div className="vw-100 vh-100 d-flex justify-content-center align-items-center">
-                <ol className="list-menu navbar-nav">
-                    {Li('HOME', '#')}
-                    {Li('SOBRE MIM', '#bio')}
-                    {Li('SERVIÇOS', '#services')}
-                    {Li('CONTATO', '#footer')}
-                </ol>
-            </div>
-        )
-    }  
-
-    function NavLinks(){
-
-        if(typeof window === 'object'){
-            
-            const animation_duration = 2;
-            const false_icon_hover = 0;
-            const true_icon_hover = 1;
-            
-            
-            // Click Animation
-            if(!nav.props.className){
-                //open();
-                
-                //setNav(
-                //    previousValue => Links()
-                //)
-            }else{
-                // Close Menu
-                //close();
-                
-                setTimeout(() => {
-                    setNav(
-                        EmpthyJsx
-                    )
-                }, animation_duration*1000)
-            }
-        }
-    }
 
     return(
-        <nav 
-        className="navbar navbar-expand-sm d-flex justify-content-center mx-auto w-100">
-            <div onClick={ NavLinks }>
+        <NavContext.Provider value={ setNav }>
+            <nav 
+            className="navbar navbar-expand-sm d-flex justify-content-center mx-auto w-100">
                 <Menu />
-            </div>
-            { nav }
-        </nav>
+                { nav }
+            </nav>
+        </NavContext.Provider>
+        
     )
 }

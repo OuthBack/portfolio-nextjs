@@ -1,28 +1,13 @@
 nav{
-    position: absolute !important;
+    position: relative !important;
     z-index: 2;
-
-    .hamburguer-container, .times-container{
-        cursor: pointer;
-        position: fixed;
-        width: 30px;
-        right: 100px;
-        top: 50px;
-        z-index: 3;
-        transition: 2s;
-        --icon-hover: 1;
-    }
-
-    .times-container{
-        animation-name: initial_right;
-        animation-duration: 0s;
-        animation-fill-mode: forwards;
-        --icon-hover: 0;
-    }
-
+    
     ol{
+        transform: translate(100vw);
+        transition: 1s;
+        list-style: none;
+    
         li{
-            list-style: none;
             a{
                 pointer-events: all;
                 font-weight: bold;
@@ -34,4 +19,5 @@ nav{
             }
         }
     }
+    
 }

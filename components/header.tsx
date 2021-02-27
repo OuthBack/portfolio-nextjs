@@ -1,4 +1,4 @@
-import React, { useState, createRef } from 'react'
+import React, { useState, createRef, createContext } from 'react'
 
 
 export default class Header extends React.Component<{}, { scroll: number }>{ 
@@ -6,7 +6,7 @@ export default class Header extends React.Component<{}, { scroll: number }>{
         super(props);
 
         this.state = {
-            scroll: 1
+            scroll: 1,
         };
     } 
 
@@ -27,9 +27,11 @@ export default class Header extends React.Component<{}, { scroll: number }>{
         }
 
         return(
-            <header ref={ this.header } style={ headerOpactity }>
-                { this.props.children }
-            </header>
+            <>
+                <header ref={ this.header } style={ headerOpactity }>
+                    { this.props.children }
+                </header>
+            </>
         )
     }
 }

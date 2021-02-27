@@ -1,0 +1,19 @@
+.header-text.animate-left{
+    transform: translateX(-100vw);
+    transition: 1s;
+}
+
+.header-text.animate-right{
+    transform: translateX(0);
+    transition: 1s;
+}
+
+nav .list-menu.animate-left {
+    transform: translateX(0);
+    transition: 1s;
+}
+
+nav .list-menu.animate-right {
+    transform: translateX(0);
+    transition: 1s;
+}
